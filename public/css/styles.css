@@ -1,0 +1,50 @@
+* {
+  font-family: Helvetica;
+}
+
+h1 {
+  text-align: center;
+}
+
+form, .books-container, .nav, .container {
+  width: 450px;
+  margin: 0 auto;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: .5rem;
+}
+
+.form-control label {
+  font-weight: bold;
+  margin-bottom: .3rem;
+}
+
+.form-control input {
+  padding: 5px;
+}
+
+.submit {
+  padding: 7px;
+  font-weight: bold;
+  border: 1px solid #00518f;
+  background-color: #0091ff;
+  color: #fff;
+  border-radius: 3px;
+}
+
+.nav {
+  margin: 10px auto;
+}
+
+.books-container div {
+  border-bottom: 1px solid #ccc;
+  padding: 5px;
+  margin: 5px;
+}
+
+.bold {
+  font-weight: bold;
+}

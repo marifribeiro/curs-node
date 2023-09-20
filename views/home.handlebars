@@ -1,0 +1,15 @@
+<h1>Cadastre seu livro</h1>
+
+<div class="nav"><a href="/books">Ver lista de livros</a></div>
+
+<form action="/books/new" method="POST">
+  <div class="form-control">
+    <label for="title">Título</label>
+    <input type="text" name="title" placeholder="O apanhador no campo de centeio">
+  </div>
+  <div class="form-control">
+    <label for="page-amount">Quantidade de páginas</label>
+    <input type="text" name="pageAmount" placeholder="42">
+  </div>
+  <input type="submit" value="Cadastrar" class="submit">
+</form>
